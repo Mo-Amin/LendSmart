@@ -3,11 +3,14 @@ li a, .navbar-brand{
     color: black !important;
     margin: 10px;
     font-size: 18px;
-
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
+
 #LendSmartImg{
   margin-right: 5px;
 }
+
 #MainSection{
   display: inline-flex;
   background-color: #127cfe;
@@ -18,19 +21,19 @@ li a, .navbar-brand{
   border-top: 3px solid black;
   border-bottom: 3px solid black;
 }
-.btn{
+.btn,#SignUpTab{
   color: black;
   font-size: 16px;
   font-family: 'Roboto Slab', serif;
   padding: 13px 23px;
   border: 2px solid black;
 }
-.btn:hover, #signUp:hover{
+.btn:hover, #signUp:hover,#SignUpTab:hover{
   background-color: #489fd9;
   color: white;
   border: 2px solid #489fd9;
 }
-#signUp{
+#signUp,#SignUpTab{
   background-color: black;
   color: white;
   margin-right: 14px;
@@ -51,6 +54,10 @@ li a, .navbar-brand{
   top: 10%;
 }
 */
+#SignUpTab{
+  color: white !important;
+  margin-left: 50px;
+}
 .navbar-brand{
   display: flex;
   font-family: 'Roboto Slab', serif;
@@ -218,6 +225,6 @@ header {
   height: fit-content;
 }
 
-.nav-item:hover {
+.navTab:hover {
   border-top: 3px solid orange;
 }
